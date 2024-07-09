@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #120428;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px;
+    margin: 32px 80px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 10px;
+}
+
+.imagem-logo {
+    height: 50px;
+}
+
+.botao-entrar {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.botao-anunciar {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border: #fff;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    background: linear-gradient(#E54A64, #FE9851);
+    cursor: pointer;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.div-1 {
+    padding-left: 80px;
+    
+}
+
+.botao-compre {
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff;
+}
+
+.h1-titulo {
+    font-family: "Oxanium", sans-serif;
+    background: linear-gradient(45deg, #E54A64, #FE9851);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    width: 556px;
+    height: 254px;
+    font-size: 52px;
+}
+
+.h2-titulo {
+    color: #fff;
+    font-size: 18px;
+    width: 469px;
+    height: 74px;
+    font-weight: 300;
+}
+
+.mulher-cyber-punk {
+    height: 800px;
+}
+
+.botao-filtre-sua-cidade {
+    border: 3px solid #fff;
+    border-radius: 5px;
+    background-color: #2D203F;
+    width: 470px;
+    height: 60px;
+    color: #fff;
+}
+
+.botao-filtre-sua-cidade:hover {
+    background-color: #4c3868;
+}
+
+.plataformas {
+    display: flex;
+    align-items: center;
+    padding: 32px 80px
+}
+
+.plataformas-imagens {
+    display: flex;
+    gap: 32px;
+}
+
+.ps4 {
+    width: 243px;
+    height: 51px;
+}
+
+.ps4:hover {
+    background-color: #2D203F;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.xbox-one {
+    width: 243px;
+    height: 51px; 
+}
+
+.xbox-one:hover {
+    background-color: #2D203F;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.xbox-360 {
+    width: 243px;
+    height: 51px; 
+}
+
+.xbox-360:hover {
+    background-color: #2D203F;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.nintendo {
+    width: 243px;
+    height: 51px; 
+}
+
+.nintendo:hover {
+    background-color: #2D203F;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kratos {
+    width: 400px;
+    height: 700px;
+}
