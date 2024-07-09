@@ -63,15 +63,10 @@ body {
     gap: 32px;
 }
 
-.div-1 {
+.div-principal {
     padding-left: 80px;
+    padding-bottom: 150px;
     
-}
-
-.botao-compre {
-    color: #fff;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: #fff;
 }
 
 .h1-titulo {
@@ -82,10 +77,16 @@ body {
     font-weight: 700;
     width: 556px;
     height: 254px;
-    font-size: 52px;
+    font-size: 53px;
 }
 
-.h2-titulo {
+.titulo-compre {
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff;
+}
+
+.paragrafo-xp-zone {
     color: #fff;
     font-size: 18px;
     width: 469px;
@@ -172,7 +173,52 @@ body {
     justify-content: space-around;
 }
 
-.kratos {
-    width: 400px;
-    height: 700px;
+.div-descricao {
+    margin-bottom: 100px;
+    padding-left: 50px;
 }
+
+.kratos {
+    width: 1200px;
+    height: 800px;
+}
+
+.h2-titulo {
+    font-family: "Oxanium", sans-serif;
+    font-size: 50px;
+    background: linear-gradient(45deg, #E54A64, #FE9851);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.paragrafo-titulo {
+    word-break: break-word;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.paragrafo-info {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.botao-anunciar-gratis {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border: #fff;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+    margin: 25px 0px;
+    background: linear-gradient(#E54A64, #FE9851);
+    cursor: pointer;
+}
+
