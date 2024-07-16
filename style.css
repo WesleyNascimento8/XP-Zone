@@ -280,3 +280,34 @@ body {
     height: 800px;
     margin-right: 120px;
 }
+
+.descricao-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h4-como-funciona {
+    font-family: var(--fonte-destaque);
+    font-size: 50px;
+    background: linear-gradient(45deg, #E54A64, #FE9851);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    padding-top: 24px;
+}
+
+.imagem-como-funciona {
+    width: 800px;
+    height: 210px;
+}
+
+.faca-novos-amigos {
+margin-left: 200px;
+padding-top: 120px;
+}
+
+.imagem-amigos {
+    width: 900px;
+    height: 720px;
+}
