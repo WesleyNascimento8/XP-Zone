@@ -127,12 +127,13 @@ body {
 .plataformas {
     display: flex;
     align-items: center;
-    padding: 32px 80px
+    padding: 32px 80px;
 }
 
 .plataformas-imagens {
     display: flex;
     gap: 32px;
+    margin: 0 auto;
 }
 
 .ps4 {
@@ -184,6 +185,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    background-image: url(img/background+GOD\ 1.png);
 }
 
 .div-descricao {
@@ -235,3 +237,46 @@ body {
     cursor: pointer;
 }
 
+.descricao-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(img/background-spider-man.svg);
+}
+
+.div-descricao-2 {
+    
+}
+
+.h3-titulo {
+    font-family: var(--fonte-destaque);
+    font-size: 50px;
+    background: linear-gradient(45deg, #E54A64, #FE9851);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    padding-left: 48px;
+}
+
+.paragrafo-titulo-2 {
+    word-break: break-word;
+    padding-top: 24px;
+    font-family: var(--fonte-padrao);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 48px;
+}
+
+.imagem-xp-100 {
+    width: 550px;
+    height: 115px;
+    padding-left: 48px;
+}
+
+.imagem-spider-man {
+    width: 600px;
+    height: 800px;
+    margin-right: 120px;
+}
