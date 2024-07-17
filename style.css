@@ -40,7 +40,7 @@ body {
 }
 
 .botao-entrar {
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--fonte-padrao);
     font-size: 14px;
     font-weight: 500;
     color: #fff;
@@ -57,7 +57,7 @@ body {
 }
 
 .botao-anunciar {
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--fonte-padrao);
     font-size: 14px;
     font-weight: 500;
     color: #fff;
@@ -73,11 +73,23 @@ body {
     display: flex;
     align-items: center;
     gap: 32px;
+    z-index: 999;
+}
+
+.video {
+    width: 100%;
+    top: 0;
+    left: 0;
+    filter: brightness(30%);
+    position: absolute;
+    z-index: -100;
 }
 
 .div-principal {
     padding-left: 80px;
     padding-bottom: 150px;
+    padding-top: 32px;
+    margin: 0 auto;
     
 }
 
@@ -89,7 +101,7 @@ body {
     font-weight: 700;
     width: 556px;
     height: 254px;
-    font-size: 53px;
+    font-size: 48px;
 }
 
 .titulo-compre {
@@ -99,19 +111,18 @@ body {
 }
 
 .paragrafo-xp-zone {
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
     color: #fff;
     font-size: 18px;
     width: 469px;
     height: 74px;
-    font-weight: 300;
-}
-
-.mulher-cyber-punk {
-    height: 800px;
+    margin-top: -48px;
 }
 
 .botao-filtre-sua-cidade {
     font-family: var(--fonte-padrao);
+    font-weight: 500;
     border: 3px solid #fff;
     border-radius: 5px;
     background-color: #2D203F;
@@ -135,6 +146,7 @@ body {
     display: flex;
     gap: 32px;
     margin: 0 auto;
+    margin-top: 48px;
 }
 
 .ps4 {
