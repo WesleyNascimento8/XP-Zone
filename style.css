@@ -50,6 +50,7 @@ body {
     width: 90px;
     height: 40px;
     cursor: pointer;
+    
 }
 
 .botao-entrar:hover {
@@ -61,12 +62,16 @@ body {
     font-size: 14px;
     font-weight: 500;
     color: #fff;
-    border: #fff;
+    border: 2px solid #E54A64;
     border-radius: 5px;
     width: 90px;
     height: 40px;
     background: linear-gradient(#E54A64, #FE9851);
     cursor: pointer;
+}
+
+.botao-anunciar:hover {
+    border-color: #fff;
 }
 
 .principal {
@@ -134,6 +139,7 @@ body {
 
 .botao-filtre-sua-cidade:hover {
     background-color: #4c3868;
+    border-color: #E54A64;
 }
 
 .plataformas {
@@ -221,6 +227,8 @@ body {
 }
 
 .paragrafo-titulo {
+    width: 600px;
+    padding-right: 48px;
     word-break: break-word;
     font-family: var(--fonte-padrao);
     color: #fff;
@@ -241,13 +249,17 @@ body {
     font-size: 14px;
     font-weight: 500;
     color: #fff;
-    border: #fff;
+    border:2px solid #E54A64;
     border-radius: 5px;
     width: 180px;
     height: 40px;
-    margin: 25px 0px;
+    margin: 25px 5px;
     background: linear-gradient(#E54A64, #FE9851);
     cursor: pointer;
+}
+
+.botao-anunciar-gratis:hover {
+    border-color: #fff;
 }
 
 .descricao-2 {
@@ -321,6 +333,31 @@ padding-top: 120px;
 }
 
 .imagem-amigos {
-    width: 900px;
+    width: 700px;
     height: 720px;
+    padding-left: 170px;
+    margin-top: -200px;
+}
+
+.botao-comunidade {
+    font-family: var(--fonte-padrao);
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border:2px solid #E54A64;
+    border-radius: 5px;
+    width: 330px;
+    height: 45px;
+    background: linear-gradient(#E54A64, #FE9851);
+    cursor: pointer;
+}
+
+.div-botao-comunidade {
+    margin-left: 480px;
+    margin-top: -32px;
+    margin-bottom: 32px;
+}
+
+.botao-comunidade:hover {
+    border-color: #fff;
 }
