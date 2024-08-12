@@ -74,6 +74,7 @@ body {
     border-color: #fff;
 }
 
+
 .principal {
     display: flex;
     align-items: center;
@@ -360,4 +361,36 @@ padding-top: 120px;
 
 .botao-comunidade:hover {
     border-color: #fff;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .cabecalho .nav-menu {
+        margin-left: 120px;
+    }
+
+    .video {
+        width: 570px;
+    }
+
+    .div-principal h1 {
+        width: 500px;
+        flex-direction: column;
+        margin-top: -48px;
+        margin-left: 32px;
+    }
+
+    .div-principal p {
+        margin-top: 24px;
+        width: 400px;
+        
+    }
+
+    .plataformas-imagens {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 80px;
+        margin-top: -48px;
+    }
 }
