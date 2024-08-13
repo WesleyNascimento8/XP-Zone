@@ -1,46 +1,37 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&display=swap');
-
-:root {
-    --background-color: #120428;
-    --linear-gradient: #E54A64, #FE9851;
-
-    --fonte-destaque: "Oxanium";
-    --fonte-padrao: 'Open-Sans', sans-serif;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background-color: var(--background-color);
+    background-color: #120428;
 }
 
-.cabecalho {
+.container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 32px;
-    margin: 32px 80px;
 }
 
-.nav-menu {
-    display: flex;
-    gap: 10px;
-}
-
-.imagem-logo {
+.container img {
     height: 50px;
 }
 
-.botao-entrar {
-    font-family: var(--fonte-padrao);
+.container-ul {
+    display: flex;
+    gap: 32px;
+}
+
+.btn-entrar {
     font-size: 14px;
     font-weight: 500;
     color: #fff;
@@ -50,15 +41,16 @@ body {
     width: 90px;
     height: 40px;
     cursor: pointer;
-    
 }
-
-.botao-entrar:hover {
+.btn-entrar:hover {
     border-color: #E54A64;
 }
 
-.botao-anunciar {
-    font-family: var(--fonte-padrao);
+.btn-entrar:active {
+    transform: scale(0.95);
+}
+
+.btn-anunciar-gratis {
     font-size: 14px;
     font-weight: 500;
     color: #fff;
@@ -70,20 +62,16 @@ body {
     cursor: pointer;
 }
 
-.botao-anunciar:hover {
+.btn-anunciar-gratis:hover {
     border-color: #fff;
 }
 
-
-.principal {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-    z-index: 999;
+.btn-anunciar-gratis:active {
+    transform: scale(0.95);
 }
 
 .video {
-    width: 100%;
+    max-width: 100%;
     top: 0;
     left: 0;
     filter: brightness(30%);
@@ -91,21 +79,26 @@ body {
     z-index: -100;
 }
 
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .div-principal {
     padding-left: 80px;
     padding-bottom: 150px;
     padding-top: 32px;
     margin: 0 auto;
-    
 }
 
 .h1-titulo {
-    font-family: var(--fonte-destaque);
     background: linear-gradient(45deg, #E54A64, #FE9851);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
-    width: 556px;
+    max-width: 550px;
     height: 254px;
     font-size: 48px;
 }
@@ -127,7 +120,6 @@ body {
 }
 
 .botao-filtre-sua-cidade {
-    font-family: var(--fonte-padrao);
     font-weight: 500;
     border: 3px solid #fff;
     border-radius: 5px;
@@ -140,64 +132,23 @@ body {
 
 .botao-filtre-sua-cidade:hover {
     background-color: #4c3868;
-    border-color: #E54A64;
+    border-color: #fff;
 }
 
 .plataformas {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    padding: 32px 80px;
+    justify-content: center;
 }
 
-.plataformas-imagens {
+.plataformas-div {
     display: flex;
     gap: 32px;
-    margin: 0 auto;
-    margin-top: 48px;
 }
 
-.ps4 {
-    width: 243px;
-    height: 51px;
-}
-
-.ps4:hover {
-    background-color: #2D203F;
-    border-radius: 10px;
-    border: 2px solid #fff;
-}
-
-.xbox-one {
-    width: 243px;
-    height: 51px; 
-}
-
-.xbox-one:hover {
-    background-color: #2D203F;
-    border-radius: 10px;
-    border: 2px solid #fff;
-}
-
-.xbox-360 {
-    width: 243px;
-    height: 51px; 
-}
-
-.xbox-360:hover {
-    background-color: #2D203F;
-    border-radius: 10px;
-    border: 2px solid #fff;
-}
-
-.nintendo {
-    width: 243px;
-    height: 51px; 
-}
-
-.nintendo:hover {
-    background-color: #2D203F;
-    border-radius: 10px;
-    border: 2px solid #fff;
+.plataformas-div img {
+    width: 200px;
 }
 
 .descricao {
@@ -209,8 +160,9 @@ body {
 }
 
 .div-descricao {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 100px;
-    padding-left: 50px;
 }
 
 .kratos {
@@ -324,15 +276,19 @@ body {
 }
 
 .imagem-como-funciona {
-    width: 800px;
+    width: 500px;
     height: 210px;
 }
 
 .faca-novos-amigos {
-margin-left: 200px;
-padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+    margin-top: 56px;
 }
-
+    
 .imagem-amigos {
     width: 700px;
     height: 720px;
@@ -340,57 +296,25 @@ padding-top: 120px;
     margin-top: -200px;
 }
 
+.div-botao-comunidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .botao-comunidade {
-    font-family: var(--fonte-padrao);
     font-size: 14px;
     font-weight: 500;
     color: #fff;
     border:2px solid #E54A64;
     border-radius: 5px;
-    width: 330px;
+    width: 300px;
     height: 45px;
     background: linear-gradient(#E54A64, #FE9851);
     cursor: pointer;
 }
 
-.div-botao-comunidade {
-    margin-left: 480px;
-    margin-top: -32px;
-    margin-bottom: 32px;
-}
-
 .botao-comunidade:hover {
     border-color: #fff;
-}
-
-
-@media screen and (max-width: 480px) {
-
-    .cabecalho .nav-menu {
-        margin-left: 120px;
-    }
-
-    .video {
-        width: 570px;
-    }
-
-    .div-principal h1 {
-        width: 500px;
-        flex-direction: column;
-        margin-top: -48px;
-        margin-left: 32px;
-    }
-
-    .div-principal p {
-        margin-top: 24px;
-        width: 400px;
-        
-    }
-
-    .plataformas-imagens {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 80px;
-        margin-top: -48px;
-    }
 }

@@ -1,0 +1,90 @@
+@media screen and (max-width:768px) {
+    .video {
+        max-width: 100%;
+    }
+
+    .plataformas-div {
+        width: 100px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .descricao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kratos {
+        width: 400px;
+    }
+
+    .descricao-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descricao-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem-como-funciona {
+        width: 500px;
+    }
+
+    .botao-comunidade {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .principal {
+        flex-direction: column;
+    }
+
+    .video {
+        max-width: 100%;
+    }
+
+    .h1-titulo {
+        max-width: 250px;
+        font-size: 24px;
+    }
+
+    .paragrafo-xp-zone {
+        display: none;
+    }
+
+    .botao-filtre-sua-cidade {
+        max-width: 200px;
+    }
+
+    .plataformas-div {
+        width: 100px;
+        align-items: center;
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .kratos {
+        width: 400px;
+    }
+
+    .div-descricao {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem-spider-man {
+        width: 500px;
+    }
+
+    .imagem-amigos {
+        width: 500px;
+    }
+
+}
