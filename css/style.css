@@ -155,6 +155,16 @@ body {
 
 .plataformas-div img {
     width: 200px;
+    padding: 8px;
+}
+
+.plataformas-div img:hover {
+    background-color: #E54A64;
+    border-radius: 10px;
+}
+
+.plataformas-div img:active {
+    transform: scale(0.95);
 }
 
 .descricao {
@@ -332,4 +342,13 @@ body {
 
 .botao-comunidade:active {
     transform: scale(0.95);
+}
+
+.footer-texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
