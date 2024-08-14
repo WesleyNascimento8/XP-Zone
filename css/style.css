@@ -137,6 +137,10 @@ body {
     border-color: #fff;
 }
 
+.botao-filtre-sua-cidade:active {
+    transform: scale(0.95);
+}
+
 .plataformas {
     display: flex;
     flex-direction: row;
@@ -215,6 +219,10 @@ body {
 
 .botao-anunciar-gratis:hover {
     border-color: #fff;
+}
+
+.botao-anunciar-gratis:active {
+    transform: scale(0.95);
 }
 
 .descricao-2 {
@@ -313,10 +321,15 @@ body {
     border-radius: 5px;
     width: 300px;
     height: 45px;
+    margin-bottom: 32px;
     background: linear-gradient(#E54A64, #FE9851);
     cursor: pointer;
 }
 
 .botao-comunidade:hover {
     border-color: #fff;
+}
+
+.botao-comunidade:active {
+    transform: scale(0.95);
 }
