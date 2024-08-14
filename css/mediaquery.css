@@ -1,3 +1,11 @@
+@media screen and (max-width:1240px) {
+    .video {
+        max-width: 100%;
+    }
+}
+
+
+/*Break Points 768px*/
 @media screen and (max-width:768px) {
     .video {
         max-width: 100%;
@@ -39,6 +47,9 @@
     }
 }
 
+
+
+/*Break Points 480px*/
 @media screen and (max-width:480px) {
 
     .principal {
