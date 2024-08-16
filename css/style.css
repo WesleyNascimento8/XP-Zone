@@ -43,10 +43,12 @@ body {
 }
 .btn-entrar:hover {
     border-color: #E54A64;
+    transition: .3s;
 }
 
 .btn-entrar:active {
     transform: scale(0.95);
+    transition: .3s;
 }
 
 .btn-anunciar-gratis {
@@ -63,14 +65,16 @@ body {
 
 .btn-anunciar-gratis:hover {
     border-color: #fff;
+    transition: .3s;
 }
 
 .btn-anunciar-gratis:active {
     transform: scale(0.95);
+    transition: .3s;
 }
 
 .video {
-    max-width: 100%;
+    width: 100%;
     top: 0;
     left: 0;
     filter: brightness(30%);
@@ -134,36 +138,44 @@ body {
 .botao-filtre-sua-cidade:hover {
     background-color: #4c3868;
     border-color: #fff;
+    transition: .3s;
 }
 
 .botao-filtre-sua-cidade:active {
     transform: scale(0.95);
+    transition: .3s;
 }
 
 .plataformas {
-    display: flex;
-    flex-direction: row;
+    background: linear-gradient(45deg, #E54A64, #FE9851);
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
     align-items: center;
     justify-content: center;
+    column-gap: 32px;
+    row-gap: 32px;
+    padding: 12px;
 }
 
-.plataformas-div {
-    display: flex;
-    gap: 32px;
-}
-
-.plataformas-div img {
+.plataformas img {
     width: 200px;
-    padding: 8px;
+    background-color:#2D203F;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
-.plataformas-div img:hover {
-    background-color: #E54A64;
-    border-radius: 10px;
+.plataformas img:hover {
+    box-shadow: #00000067;
+    -webkit-box-shadow: 3px 4px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 10px -3px rgba(0,0,0,0.75);
 }
 
-.plataformas-div img:active {
+.plataformas img:active {
     transform: scale(0.95);
+    transition: .3s;
 }
 
 .descricao {
@@ -337,10 +349,12 @@ body {
 
 .botao-comunidade:hover {
     border-color: #fff;
+    transition: .3s;
 }
 
 .botao-comunidade:active {
     transform: scale(0.95);
+    transition: .3s;
 }
 
 .footer-texto {
