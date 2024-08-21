@@ -240,10 +240,12 @@ body {
 
 .botao-anunciar-gratis:hover {
     border-color: #fff;
+    transition: .3s;
 }
 
 .botao-anunciar-gratis:active {
     transform: scale(0.95);
+    transition: .3s;
 }
 
 .descricao-2 {
